@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Akshay Sanjeev Keloth/അക്ഷയ് സഞ്ജീവ് കേളോത്ത് 
+title: Akshay Sanjeev Keloth.
 email: akshaysk [at] imsc [dot] res [dot] in
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! I am Akshay Sanjeev, a grad student at Institute of Mathematical Sciences, Chennai.
-  I am interested in Complex systems in biology.
+  Hello! I am Akshay Sanjeev, a grad student at the Institute of Mathematical Sciences(IMSc), Chennai.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: asanjeevkeloth
