@@ -21,7 +21,7 @@
 title: Akshay Sanjeev Keloth/അക്ഷയ് സഞ്ജീവ് കേളോത്ത് 
 email: akshaysk [at] imsc [dot] res [dot] in
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! I am Akshay Sanjeev, a grad student at Institute of Mathematical Sciences, Chennai.\\
+  Hello! I am Akshay Sanjeev, a grad student at Institute of Mathematical Sciences, Chennai.
   I am interested in Complex systems in biology. I like to take pictures. I am a Malayali. 
   I read fiction and non-fiction in Malayalam, sometimes English as well. I am interested in LaTeX, 
   some video games, mechanical keyboards and pretty much everything, if you have the time and patience to explain it to me. 
@@ -38,8 +38,6 @@ plugins:
 header_pages:
   - about.md
   - cv.md
-  # - publications.md
-  # - talks.md
   - elsewhere.md
 
 # Exclude from processing.
