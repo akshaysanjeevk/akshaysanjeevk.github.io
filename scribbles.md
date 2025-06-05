@@ -6,4 +6,4 @@ permalink: /scribbles/
 
 Here's a list of my random writings. 
 
-- [Building a leaky-integrate and fire neuron model](/scribbles/LIF_neuron.md)
+- [Building a leaky-integrate and fire neuron model](/scribbles/LIF_neuron)
