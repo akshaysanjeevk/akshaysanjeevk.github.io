@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Building an LIF Neuron. 
-permalink: /scirbbles/LIF_neuron.md
+permalink: /scirbbles/LIF_neuron
 ---
-
-
 ## Case-1
 The ordinary differential equation given below is a simple system with constant rate of change.$$
 \frac{dV}{dt} = \frac{V_0}{\tau}
