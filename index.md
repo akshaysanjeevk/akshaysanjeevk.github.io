@@ -7,7 +7,7 @@ title: Hi there
 
 ---
 
-Hi! I am Akshay Sanjeev, a grad student at the (Institute of Mathematical Sciences(IMSc), Chennai)[https://www.imsc.res.in/]. I work on the broad area of Complex Systems in Biology. 
+Hi! I am Akshay Sanjeev, a grad student at the (https://www.imsc.res.in/)[Institute of Mathematical Sciences(IMSc), Chennai]. I work on the broad area of Complex Systems in Biology. 
 
 
 #### [About Me](about)
