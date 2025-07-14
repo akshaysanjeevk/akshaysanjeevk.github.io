@@ -13,4 +13,5 @@ Hi! I am Akshay Sanjeev, a grad student at the (https://www.imsc.res.in/)[Instit
 #### [About Me](about)
 #### [Curriculum Vitae](cv)
 #### [Elsewhere](elsewhere)
+#### [Resources](resources)
 #### [Scribbles](scribbles)
