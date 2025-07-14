@@ -14,3 +14,4 @@ Hi! I am Akshay Sanjeev, a grad student at the (Institute of Mathematical Scienc
 #### [Curriculum Vitae](cv)
 #### [Elsewhere](elsewhere)
 #### [Scribbles](scribbles)
+#### [Resources](resources)

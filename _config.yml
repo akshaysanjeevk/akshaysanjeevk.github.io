@@ -37,6 +37,7 @@ header_pages:
   - cv.md
   - elsewhere.md
   - scribbles.md
+  - resources.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
