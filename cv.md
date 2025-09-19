@@ -15,11 +15,14 @@ permalink: /cv/
 | 2024 December -- 2025 July  | **Research Assistant** <br> Tata Institute for Genetics and Society, Bangalore |
 
 # Projects
+<!-- 
+## Characterisation of mosquito larval swim kinematics.
+I worked with Dr. Sonia Sen(*TIGS*) to develop a tool to classify and quantify different species of mosquito larvae based on their swimming behaviour. We collected data,
+trained and feature engineered various machine learning models to execute the task. 
 
-I will update this soon:)
+## Effects of arena geometry in fish collective motion.
+I worked with Prof. Vishwesha Guttal(*CES, IISc*) to understand how the arena geometry effects the 
+collective motion in fish schools. This was my master's thesis. I was co-advised by Prof. Anuradha Bhat(*IISER-Kolkata*).
 
-<!-- 2020 January -- \\
-**Observing and Inferring a Collective** \\
-Under the guidance of [Dr. Danny M Raj](https://www.dannyraj.com/), Department of Chemical Engineering, Indian Instiute of Science, Bangalore \\
-_We study the movement of agents in a collective system, trying to understand how much we can learn about the individual agents from observed data about the collective._ -->
-
+## Investigation of collective threat avoidance in mobile animal groups
+This was a side hustle during my time at TEE lab, IISc. I did the control experiments, some of the tracking and data analysis for Dr. Cassandre Aimon's ongoing study, guided by Prof. Vishwesha Guttal and Prof. Guy Therulaz(*CNRS, Université de Toulouse III–Paul Sabatier*). -->
