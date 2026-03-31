@@ -34,10 +34,11 @@ plugins:
 
 header_pages:
   # - about.md
-  - cv.md
+  - research.md
   - elsewhere.md
   - scribbles.md
-  - resources.md
+  - resources.
+  - stuff.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
