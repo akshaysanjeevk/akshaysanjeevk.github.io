@@ -31,11 +31,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
-
 header_pages:
   - research.md
-  - scribbles.md
   - resources.md
+  - scribbles.md
   - stuff.md
 
 # Exclude from processing.
