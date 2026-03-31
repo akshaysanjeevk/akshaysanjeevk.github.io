@@ -5,6 +5,5 @@ permalink: /scribbles/
 ---
 
 Here's a list of my random writings. 
-
-Coming soon!
+- [Replicator dynamics](/scribbles/test)
 - [Building a leaky-integrate and fire neuron model](/scribbles/LIF_neuron)
