@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Akshay Sanjeev Keloth.
-email: akshaysk [at] imsc [dot] res [dot] in
-description: "Hi, I am Akshay Sanjeev, a grad student at the Institute of Mathematical Science(IMSc). Chennai."
+email: akshaysk [at] imsc [dot] res [dot]
+description: "Hi, I am Akshay Sanjeev, a grad student at the Institute of Mathematical Science(IMSc), Chennai."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: asanjeevkeloth
@@ -33,11 +33,9 @@ plugins:
 
 
 header_pages:
-  # - about.md
   - research.md
-  - elsewhere.md
   - scribbles.md
-  - resources.
+  - resources.md
   - stuff.md
 
 # Exclude from processing.

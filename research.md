@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-At IMSc, I work with (Prof. Sitabhra Sinha)[https://www.imsc.res.in/sitabhra_sinha].
+At IMSc, I work with [Sitabhra Sinha](https://www.imsc.res.in/sitabhra_sinha).
 I am interested in complex systems, particularly in biology. To list a few collective behaviour, 
 game theory, evolutionary dynamics, etc. Currently I work on two problems. 
 
