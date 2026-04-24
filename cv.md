@@ -6,8 +6,8 @@ permalink: /cv/
 
 # Education
 
-| 2018 -- 2023 | **Bachelor of Science-Master of Science(BSMS)** <br> Indian Institute of Science Education and Research, Kolkata, WB. |
-| 2024 -- | **PhD (Computational Biology)** <br> Institute of Mathematical Science, Chennai, TN. |
+| 2018 -- 2023 | **Bachelor of Science-Master of Science(BS-MS)** <br> Indian Institute of Science Education and Research, Kolkata, WB. |
+| 2024 -- | **PhD ** <br> Institute of Mathematical Science, Chennai, TN. |
 
 # Experience
 
