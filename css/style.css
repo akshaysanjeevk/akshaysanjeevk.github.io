@@ -1,0 +1,220 @@
+/* ==========================================================================
+   Color Variables & Layout Tokens
+   ========================================================================== */
+:root {
+    /* Fonts */
+    --font-primary: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    
+    /* New Premium Light Mode Palette (Deep Indigo & Warm Alabaster) */
+    --bg-color: #faf9f6;         /* Warm cream base */
+    --text-color: #0f1424;       /* Deep ink indigo */
+    --text-muted: #525c7a;       /* Muted slate blue */
+    --primary-brand: #4f46e5;    /* Vibrant electric indigo */
+    --accent-hover: #d97706;     /* Warm amber */
+    --border-color: #e2e5ec;     /* Crisp, subtle borders */
+    --social-bg: #eceef3;          /* Soft button containers */
+    --transition-speed: 0.25s;
+}
+
+body.dark-mode {
+    /* New Premium Dark Mode Palette (Midnight Deep Indigo) */
+    --bg-color: #1f222c;         /* Deep obsidian night */
+    --text-color: #f1f3f9;       /* Off-white ice */
+    --text-muted: #8c9bb4;       /* Soft sky gray */
+    --primary-brand: #818cf8;    /* Luminous indigo accent */
+    --accent-hover: #f59e0b;     /* Vivid gold/amber */
+    --border-color: #39496d;     /* Deep framing borders */
+    --social-bg: #80a0f1;  /* Raised card dark backgrounds */
+    --social-hover: #d8dff0;
+}
+
+/* ==========================================================================
+   General / Base Styles
+   ========================================================================== */
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+a {
+    color: var(--primary-brand);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--transition-speed) ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 24px 60px;
+    border-bottom: 1px solid var(--border-color);
+    transition: border-color var(--transition-speed) ease;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    white-space: nowrap;
+    color: var(--text-color);
+}
+
+.header-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav {
+    display: flex;
+    gap: 40px; 
+}
+
+nav a {
+    color: var(--text-muted);
+}
+
+nav a:hover {
+    color: var(--primary-brand);
+}
+
+#theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px; /* Slightly increased targets for better accessibility */
+    border-radius: 8px;
+    transition: background-color var(--transition-speed);
+}
+
+#theme-toggle:hover {
+    background-color: #e2e5ec;
+}
+
+#theme-toggle img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+
+main {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 24px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 32px;
+    }
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(15, 20, 36, 0.08); /* Adjusted to match new deep text base */
+}
+
+body.dark-mode .profile-image img {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.profile-text h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+    text-align: center;
+    padding: 40px 24px;
+    max-width: 800px;
+    margin: 120px auto 0;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    transition: border-color var(--transition-speed) ease;
+}
+
+.footer-email {
+    margin-bottom: 24px;
+}
+
+footer a {
+    color: var(--primary-brand);
+}
+
+footer a:hover {
+    color: var(--accent-hover);
+}
+
+/* Social Icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social-links a {
+    width: 44px;
+    height: 44px;
+    background-color: var(--social-bg);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transition-speed) ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    background-color: var(--social-hover);
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
