@@ -1,0 +1,2 @@
+# Everything is a network
+Networks or graphs in a more precisely defined manner, are everywhere. They are the quintessential way of mathematically writing down what interacts with what and interactions could mean ANYTHING. 

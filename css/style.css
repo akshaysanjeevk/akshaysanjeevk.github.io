@@ -2,31 +2,29 @@
    Color Variables & Layout Tokens
    ========================================================================== */
 :root {
-    /* Fonts */
     --font-primary: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    
-    /* New Premium Light Mode Palette (Deep Indigo & Warm Alabaster) */
-    --bg-color: #faf9f6;         /* Warm cream base */
-    --text-color: #0f1424;       /* Deep ink indigo */
-    --text-muted: #525c7a;       /* Muted slate blue */
-    --primary-brand: #4f46e5;    /* Vibrant electric indigo */
-    --accent-hover: #d97706;     /* Warm amber */
-    --border-color: #e2e5ec;     /* Crisp, subtle borders */
-    --social-bg: #eceef3;          /* Soft button containers */
+    --bg-color: #faf9f6;
+    --text-color: #0f1424;
+    --text-muted: #5b5b5b;
+    --primary-brand: #454545;
+    --accent-hover: #0007ff;
+    --border-color: #cdcccc;
+    --social-bg: #3535351f;
     --transition-speed: 0.25s;
 }
 
+
 body.dark-mode {
-    /* New Premium Dark Mode Palette (Midnight Deep Indigo) */
-    --bg-color: #1f222c;         /* Deep obsidian night */
-    --text-color: #f1f3f9;       /* Off-white ice */
-    --text-muted: #8c9bb4;       /* Soft sky gray */
-    --primary-brand: #818cf8;    /* Luminous indigo accent */
-    --accent-hover: #f59e0b;     /* Vivid gold/amber */
-    --border-color: #39496d;     /* Deep framing borders */
-    --social-bg: #80a0f1;  /* Raised card dark backgrounds */
-    --social-hover: #d8dff0;
+    --bg-color: #050505;
+    --text-color: #f1f3f9;
+    --text-muted: #2fff00;
+    --primary-brand: #7fff57;
+    --accent-hover: #1b0bf5;
+    --border-color: #486d39;
+    --social-bg: #74ac70;
+    --social-hover: #00fe0e;
 }
+
 
 /* ==========================================================================
    General / Base Styles
